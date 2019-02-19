@@ -20,16 +20,12 @@ public class JOption {
         
         nome = JOptionPane.showInputDialog("Digite seu nome: ");
         email = JOptionPane.showInputDialog("Digite seu email: ");
-        idade = Integer.parseInt(
-                JOptionPane.showInputDialog("Digite sua idade: "));
-        peso = Double.parseDouble(
-                JOptionPane.showInputDialog("Digite seu peso: "));
-        altura = Double.parseDouble(
-                JOptionPane.showInputDialog("Digite sua altura: "));
+        idade = Integer.parseInt(JOptionPane.showInputDialog("Digite sua idade: "));
+        peso = Double.parseDouble(JOptionPane.showInputDialog("Digite seu peso: "));
+        altura = Double.parseDouble(JOptionPane.showInputDialog("Digite sua altura: "));
         
-        JOptionPane.showMessageDialog(null,"Nome: "+nome+"\n"+"Idade: "
-                +idade+"\n"+"Altura: "+altura+"\n"+"Peso: "+peso
-                +"\nEmail:"+email);
+        JOptionPane.showMessageDialog(null,"Nome: "+nome+"\n"+"Idade: "+idade+"\n"+"Altura: "+altura+"\n"
+                                    +"Peso: "+peso+"\nEmail: "+email);
         
     }
     
