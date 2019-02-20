@@ -25,8 +25,7 @@ public class JOption {
         altura = Double.parseDouble(JOptionPane.showInputDialog("Digite sua altura: "));
         
         JOptionPane.showMessageDialog(null,"Nome: "+nome+"\n"+"Idade: "+idade+"\n"+"Altura: "+altura+"\n"
-                                    +"Peso: "+peso+"\nEmail: "+email);
-        
+                                    +"Peso: "+peso+"\nEmail: "+email);        
     }
     
 }
